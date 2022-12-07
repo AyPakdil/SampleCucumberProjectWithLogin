@@ -7,7 +7,7 @@ Feature: Login
   Scenario Outline: AC-1: Login as a <userType>
     When The user logs in as a "<userType>"
     Then The user is on the "<pageSubTitle>" page
-    
+
     Examples:
       | userType      | pageSubTitle    |
       | Driver        | Quick Launchpad |
